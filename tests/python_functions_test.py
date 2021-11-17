@@ -95,7 +95,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
 #   @unittest.skip("delete this line to run the test")
   def test_fahrenheit_to_celsius(self):
     fahrenheit_to_celsius_result = convert_temp(150)
-    self.assertEqual( 65.55555555555556, fahrenheit_to_celsius_result )
+    self.assertEqual( 65, fahrenheit_to_celsius_result )
 
 
 if __name__ == '__main__':

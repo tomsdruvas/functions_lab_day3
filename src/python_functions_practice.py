@@ -12,7 +12,7 @@ def multiply(numb1, numb2):
     return numb1 * numb2
 
 def divide(numb1, numb2):
-    return numb1 / numb2
+    return numb1 // numb2
 
 def length_of_string(string):
     return len(string)
@@ -40,4 +40,4 @@ def reverse_string(string):
     return string[::-1]
 
 def convert_temp(x_f):
-    return (x_f - 32) * 5 / 9
+    return (x_f - 32) * 5 // 9
