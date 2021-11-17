@@ -35,3 +35,9 @@ def number_to_short_month_name(numb1):
 
 def volume(numb1, numb2, numb3):
     return numb1 * numb2 * numb3
+
+def reverse_string(string):
+    return string[::-1]
+
+def convert_temp(x_f):
+    return (x_f - 32) * 5 / 9
